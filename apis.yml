@@ -1,7 +1,24 @@
 aid: citruslabs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/citruslabs.png
 name: Citruslabs
-description: Citruslabs is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Citruslabs is a clinical research organization (CRO) that designs and runs clinical trials,
+  consumer perception studies, and randomized controlled trials for consumer health brands across
+  supplements, skincare, pet health, food and beverage, longevity, and women's health. It handles IRB
+  approval, protocol design, participant recruitment, decentralized data collection, and statistical
+  analysis, then turns results into regulator-reviewed, marketing-ready product claims for retailers,
+  advertising, and packaging. Studies range from DIY consumer perception studies to full randomized
+  controlled trials, typically completing in four to sixteen weeks.
 url: https://raw.githubusercontent.com/api-evangelist/citruslabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: No public API, developer portal, docs, SDKs, or GitHub organization found (2026-07-18);
+  Citruslabs is a services-based CRO. Spec-derived artifacts are legitimately N/A. Identity + domain-security
+  enrichment applied.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Clinical Research
+- Clinical Trials
+- Consumer Health
+- CRO
+- Supplements
+- Skincare
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/citruslabs-domain-security.yml
 - type: Website
   url: https://citruslabs.com/
+- type: Blog
+  url: https://citruslabs.com/blog
+- type: Pricing
+  url: https://citruslabs.com/pricing
+- type: Support
+  url: https://citruslabs.com/contact
+- type: HelpCenter
+  url: https://citruslabs.com/faqs
+- type: TermsOfService
+  url: https://citruslabs.com/terms
+- type: PrivacyPolicy
+  url: https://citruslabs.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
