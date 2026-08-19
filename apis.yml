@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-enrichment-note: No public API, developer portal, docs, SDKs, or GitHub organization found (2026-07-18);
   Citruslabs is a services-based CRO. Spec-derived artifacts are legitimately N/A. Identity + domain-security
   enrichment applied.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
